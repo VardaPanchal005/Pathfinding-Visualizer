@@ -1,4 +1,4 @@
-/*.demonstration {
+.demonstration {
   border: 2px solid green;
 }
 
@@ -8,7 +8,7 @@
 
 .otherother {
   border: 2px solid grey;
-}*/
+}
 
 .start{
     /*border: 1px solid rgb(175, 216, 248);*/
@@ -316,6 +316,7 @@
     width: 50%;
     height: 70%;
     border: 2px solid #34495e;
+    
     border-radius: 4px;
     text-align: center;
     float: right;
@@ -329,13 +330,7 @@
     right: 0;
   }
   
-  #nextButton {
-    color: #ffffff;
-    background-color: #1abc9c;
-    position: absolute;
-    right: 2%;
-    bottom: 2%;
-  }
+
   
   #previousButton {
     color: #ffffff;
@@ -360,6 +355,14 @@
     right: 2%;
     bottom: 2%;
   }
+  #nextButton {
+    color: #ffffff;
+    background-color: #1abc9c;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+  }
+
   
   #finishButton:hover,
   #nextButton:hover,
@@ -402,15 +405,15 @@
     font-size: 14px;
   }
   
-  /*#otherText > ul li {
+  #otherText > ul li {
     display: inline-block;
     list-style: none;
     padding: 10px 50px 0 0;
-  }*/
+  }
   
   #board{
     border-collapse:collapse;
-    /*position: center*/
+    position: center
   }
   
   #mainText div {
@@ -428,13 +431,15 @@
     margin-right: 5px;
   }
   
-  #tutorial {
+  /*#tutorial {
     position: absolute;
-    color: red;
+    color: black;
     height: 50px;
-    width: 200px;
+    width: 1000px;
     z-index: 2;
-  }
+    box-sizing:border-box;
+    
+  }*/
   
   #board td{
     /*border: 1px solid rgb(175, 216, 248);*/
@@ -6639,6 +6644,7 @@
     background-color: #1abc9c;
     min-height: 473px;
     padding: 123px 199px 33px 306px;
+    box-sizing: border-box ;
   }
   .login-icon {
     left: 200px;
