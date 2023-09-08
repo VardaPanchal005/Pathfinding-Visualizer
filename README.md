@@ -32,5 +32,5 @@ A very bad algorithm for pathfinding; does not guarantee the shortest path.
 On top of the pathfinding algorithms listed above, I implemented a Recursive Division Maze Generation algorithm.
 
 
-
+reference: https://www.youtube.com/watch?v=msttfIHHkak&t=2286s
 
